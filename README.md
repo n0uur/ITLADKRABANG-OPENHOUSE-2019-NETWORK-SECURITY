@@ -14,3 +14,8 @@ Network Security เป็นการแข่งขันซึ่งอยู
      - รางวัลชนะเลิศ account บนแพลตฟอร์ม Secplayground ระยะเวลา 1 ปี จำนวนทั้งสิ้น 2 รางวัล (มูลค่ากว่า 19,176‬ บาท)
      - รางวัลรองชนะเลิศ account บนแพลตฟอร์ม Secplayground ระยะเวลา 6 เดือน จำนวนทั้งสิ้น 2 รางวัล (มูลค่ากว่า 9,588‬ บาท)
      - รางวัลชมเชย account บนแพลตฟอร์ม Secplayground ระยะเวลา 3 เดือน จำนวนทั้งสิ้น 2 รางวัล (มูลค่ากว่า 4,794 บาท )
+
+## Developers
+- นรรณจา โสวรรณ ([Dwakez](https://www.facebook.com/Dwakez))
+- พุฒิเมธ ธรรมแสง ([Jusmistic](https://www.facebook.com/jusmistic))
+- วีรภัทร ทรัพย์สมบูรณ์ ([xiikjiix](https://fb.com/IIIKJIII))
