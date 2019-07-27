@@ -5,9 +5,9 @@ function login() {
     var img = document.getElementById('img');
 
     if (username == 'YuNaaaaaaaaaaa' && password == 'Buddyyyyyyyyyyyyyyyy') {
-        alert('Congratulations ! Here is your flag1 ' + atob('J3MzY3VyMyc='));
-        messageBox.innerHTML = 'Well done Buddy !\n Flag of this problem is KM[IT]L{flag1-flag2-flag3}';
         img.setAttribute('src', './assets/images/praise.jpg');
+        messageBox.innerHTML = 'Well done Buddy !\n Flag of this problem is KM[IT]L{flag1-flag2-flag3}';
+        alert('Congratulations ! Here is your flag1 ' + atob('J3MzY3VyMyc='));
     }
 
     else {
