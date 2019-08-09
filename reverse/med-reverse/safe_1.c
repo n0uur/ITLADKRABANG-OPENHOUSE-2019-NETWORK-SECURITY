@@ -49,9 +49,10 @@ void main(){
 	int in;
 	printf("%s", lock_ui);
 	printf("\n __________:[ Yeri's Safe ]:__________\n");
+	printf("|                                     |\n");
 	printf("|  Super secure safe from RedG0d Safe |\n");
 	printf("|_____________________________________|\n");
-	printf("PASSWORD:> ");
+	printf("\nPASSWORD:> ");
 	scanf("%d", &in);
 	if(p == in){
 		flag();
