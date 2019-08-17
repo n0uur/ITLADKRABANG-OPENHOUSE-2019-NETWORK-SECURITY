@@ -19,7 +19,7 @@ void main(){
 
 	char password[128] = "P@ssw0rd!";
 	char in[128];
-	printf("\n __________:[ Yeri's Safe ]:__________\n");
+	printf(" _____:[ Wendy and Joy's Safe ]:______\n");
 	printf("|                                     |\n");
 	printf("|     Secure safe from RedG0d Safe    |\n");
 	printf("|_____________________________________|\n");
