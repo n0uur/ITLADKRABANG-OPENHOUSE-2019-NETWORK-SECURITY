@@ -1,4 +1,9 @@
+<?php
+
+ob_start();
+?>
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <title>Upload | My Gallery</title>
@@ -16,8 +21,8 @@
         <input type="file" name="fileupload">
         <input type="submit" value="Upload" name="submit">
       </form>
+<?php
 
-      <?php
         if (isset($_POST["submit"]) && isset($_FILES["fileupload"])) {
           $upload_ok = 1;
           $target_file = "".basename($_FILES["fileupload"]["name"]);
