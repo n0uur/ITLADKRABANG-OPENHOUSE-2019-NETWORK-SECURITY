@@ -1,46 +1,229 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url("https://fonts.googleapis.com/css?family=Prompt:400,500,700");
+body {
+	margin: 0;
+	font-size: .9rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #212529;
+	text-align: left;
+	background-color: #292929 !important;
+}
 
+.navbar-laravel {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+}
 
-body{
-		    margin: 0;
-			    font-size: .9rem;
-				    font-weight: 400;
-					    line-height: 1.6;
-						    color: #212529;
-							    text-align: left;
-								    background-color: #292929 !important;
-							}
+.navbar-brand, .nav-link, .my-form, .login-form {
+	font-family: 'Prompt', sans-serif;
+}
 
-							.navbar-laravel
-							{
-									    box-shadow: 0 2px 4px rgba(0,0,0,.04);
-								}
+.my-form {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
 
-								.navbar-brand , .nav-link, .my-form, .login-form
-								{
-										    font-family: Raleway, sans-serif;
-									}
+.my-form .row {
+	margin-left: 0;
+	margin-right: 0;
+}
 
-									.my-form
-									{
-											    padding-top: 1.5rem;
-												    padding-bottom: 1.5rem;
-											}
+.login-form {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
 
-											.my-form .row
-											{
-													    margin-left: 0;
-														    margin-right: 0;
-													}
+.login-form .row {
+	margin-left: 0;
+	margin-right: 0;
+}
 
-													.login-form
-													{
-															    padding-top: 1.5rem;
-																    padding-bottom: 1.5rem;
-															}
+body {
+	background-color: #f4f7ff;
+}
 
-															.login-form .row
-															{
-																	    margin-left: 0;
-																		    margin-right: 0;
-																	}
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Prompt', monospace;
+}
+
+.container {
+	background-color: #fff;
+	width: 296px;
+	height: 512px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 8px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 10px 2px #dee5f4;
+	color: #3c4454;
+	z-index: 9999999;
+}
+
+h1 {
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	height: 48px;
+	background: #4985ff;
+	font-size: 15.5px;
+	text-align: center;
+	line-height: 3.2;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 3.5px;
+}
+
+ul {
+	padding: 16px 24px 26px 24px;
+	height: calc(100% - 48px);
+	list-style-type: none;
+	z-index: 999;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 1fr);
+}
+
+li {
+	position: relative;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li.f_row {
+	font-weight: 500;
+	font-size: 44px;
+	letter-spacing: 9px;
+	padding-bottom: 1px;
+}
+
+li.f_row .arrow {
+	height: 20px;
+	width: 30px;
+	color: #989da6;
+	opacity: .3;
+}
+
+li.f_row .to:after, li.f_row .from:after {
+	bottom: -10px;
+	position: absolute;
+	content: attr(data);
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: .2px;
+	color: #989da6;
+}
+
+li.f_row .to:after {
+	right: 0;
+}
+
+li.f_row .from:after {
+	left: 0;
+}
+
+li.f_row .to {
+	width: 96px;
+}
+
+li.s_row {
+	background: #f4f7ff;
+	margin-top: 30px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	height: 80px;
+	padding: 0px 16px 8px 16px;
+}
+
+li.s_row .flight {
+	width: 50%;
+}
+
+li.s_row .flight, li.s_row .gate, li.s_row .seat {
+	position: relative;
+}
+
+li.s_row .flight:after, li.s_row .seat:after, li.s_row .gate:after {
+	top: -28px;
+	left: 0;
+	position: absolute;
+	content: attr(data);
+	font-weight: 500;
+	letter-spacing: .2px;
+	font-size: 13px;
+}
+
+li.t_row {
+	overflow: visible;
+	margin-top: 40px;
+}
+
+li.t_row .date, li.t_row .boarding {
+	position: relative;
+}
+
+li.t_row .date:after, li.t_row .boarding:after {
+	top: -27px;
+	position: absolute;
+	content: attr(data);
+	font-weight: 500;
+	letter-spacing: .2px;
+	font-size: 13px;
+}
+
+li.t_row .date:after {
+	left: 0;
+}
+
+li.t_row .boarding:after {
+	right: 0;
+}
+
+li.fo_row {
+	margin-top: 34px;
+	text-transform: uppercase;
+}
+
+li.fo_row .passenger {
+	position: relative;
+}
+
+li.fo_row .passenger:after {
+	text-transform: none;
+	top: -28px;
+	left: 0;
+	position: absolute;
+	content: attr(data);
+	font-weight: 500;
+	letter-spacing: .2px;
+	font-size: 13px;
+}
+
+li.fi_row {
+	overflow: hidden;
+	align-self: end;
+	height: 45px;
+	width: 100%;
+}
+
+li.fi_row svg.barcode {
+	margin-right: 3px;
+	fill: #3c4454;
+	height: 200%;
+	width: 100%;
+}
+
+li.flag {
+	font-weight: 500;
+	letter-spacing: .2px;
+	font-size: 13px;
+}
