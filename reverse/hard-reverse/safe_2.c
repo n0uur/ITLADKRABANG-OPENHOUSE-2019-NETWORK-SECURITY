@@ -19,7 +19,23 @@ char lock_ui[512] = "     ______________________________\n"
 					"    |     |______SUBMIT______|     |\n"
 					"    |______________________________|\n";
 					
-char flag0[50] = "cC4b55CE0C591eDBc35cAE1a9DDEB9";
+
+void flag(){
+	printf("SYSTEM: Password is a flag!\n");
+}
+
+void main(){
+	char in[128];
+	printf("%s", lock_ui);
+	printf("\n");
+	printf(" __________:[ Irene's Safe ]:_________\n");
+	printf("|                                     |\n");
+	printf("|  Ulta secure safe from RedG0d Safe  |\n");
+	printf("|_____________________________________|\n");
+	printf("\nPASSWORD[1/2]:> ");
+	printf("");
+	scanf("%[^\n]s", in);
+	char flag0[50] = "cC4b55CE0C591eDBc35cAE1a9DDEB9";
 char flag1[50] = "fc8C80be7cFB4aa4ce8dC6b1D";
 char flag2[50] = "Efb93e4CBEABAADcBbC6Fb8bEcD8";
 char flag3[50] = "110aDC77f29450c38ce8AC1eafbc";
@@ -169,22 +185,6 @@ char flag146[50] = "FEAC8dd7CCd4225BCa5485fABB";
 char flag147[50] = "D1C3f919C4bFD242510bE5a5Af8bC2";
 char flag148[50] = "aEDbAcD6f7594CB4F859b55cAD";
 char flag149[50] = "fB538BDa9ceC34A6aCee0aAceA9";
-
-void flag(){
-	printf("SYSTEM: Password is a flag!\n");
-}
-
-void main(){
-	char in[128];
-	printf("%s", lock_ui);
-	printf("\n");
-	printf(" __________:[ Irene's Safe ]:_________\n");
-	printf("|                                     |\n");
-	printf("|  Ulta secure safe from RedG0d Safe  |\n");
-	printf("|_____________________________________|\n");
-	printf("\nPASSWORD[1/2]:> ");
-	printf("");
-	scanf("%[^\n]s", in);
 
 	if(strcmp(in, flag13) == 0){
 		printf("SYSTEM: PASSWORD 1 is Correct!\n");
