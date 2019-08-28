@@ -18,4 +18,7 @@ Network Security เป็นการแข่งขันซึ่งอยู
 ## Developers
 - นรรณจา โสวรรณ ([Dwakez](https://www.facebook.com/Dwakez))
 - พุฒิเมธ ธรรมแสง ([Jusmistic](https://www.facebook.com/jusmistic))
-- วีรภัทร ทรัพย์สมบูรณ์ ([xiikjiix](https://fb.com/IIIKJIII))
+- ณัฐกิตติ์ สำเร็จ ([tannyishappy]https://www.facebook.com/tissue21))
+- วรเมธ งามขำ ([Icyscools](https://www.facebook.com/woramat.ngamkham))
+- ศุภกฤต ขาวมีวงษ์ ([LoukHin](https://www.facebook.com/spk.kmwwww))
+- กฤตณัฏฐ์ ศิริพรนพคุณ ([n0uur](https://www.facebook.com/0ktnn))
